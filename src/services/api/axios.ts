@@ -1,4 +1,4 @@
-import { LOCAL_STORAGE_CONSTANTS } from "@/helpers/constants";
+import { LOCAL_STORAGE_CONSTANTS } from "../../helpers/constants";
 import axios, {
   AxiosError,
   type AxiosResponse,
