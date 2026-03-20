@@ -1,0 +1,35 @@
+src/components/ui/custom/custom-dropdown.tsx(16,10): error TS1484: 'Control' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/ui/custom/custom-dropdown.tsx(16,19): error TS1484: 'FieldValues' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/ui/custom/custom-dropdown.tsx(16,32): error TS1484: 'Path' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/ui/custom/custom-dropdown.tsx(16,38): error TS1484: 'RegisterOptions' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/ui/custom/custom-dropdown.tsx(291,42): error TS2345: Argument of type '(DropdownOption | undefined)[]' is not assignable to parameter of type 'DropdownOption | DropdownOption[] | null'.
+  Type '(DropdownOption | undefined)[]' is not assignable to type 'DropdownOption[]'.
+    Type 'DropdownOption | undefined' is not assignable to type 'DropdownOption'.
+      Type 'undefined' is not assignable to type 'DropdownOption'.
+src/components/ui/custom/custom-dropdown.tsx(311,26): error TS18047: 'selectedValue' is possibly 'null'.
+src/components/ui/custom/custom-dropdown.tsx(374,17): error TS18047: 'selectedValue' is possibly 'null'.
+src/components/ui/custom/custom-dropdown.tsx(380,17): error TS2322: Type '(el: HTMLDivElement | null) => HTMLDivElement | null' is not assignable to type 'Ref<HTMLDivElement> | undefined'.
+  Type '(el: HTMLDivElement | null) => HTMLDivElement | null' is not assignable to type '(instance: HTMLDivElement | null) => void | (() => VoidOrUndefinedOnly)'.
+    Type 'HTMLDivElement | null' is not assignable to type 'void | (() => VoidOrUndefinedOnly)'.
+      Type 'null' is not assignable to type 'void | (() => VoidOrUndefinedOnly)'.
+src/components/ui/custom/custom-dropdown.tsx(430,50): error TS2345: Argument of type '((value: string | string[] | null) => void) | undefined' is not assignable to parameter of type '(value: DropdownValue) => void'.
+  Type 'undefined' is not assignable to type '(value: DropdownValue) => void'.
+src/components/ui/custom/custom-dropdown.tsx(431,43): error TS2345: Argument of type '((value: string | string[] | null) => void) | undefined' is not assignable to parameter of type '(value: DropdownValue) => void'.
+  Type 'undefined' is not assignable to type '(value: DropdownValue) => void'.
+src/components/ui/custom/custom-dropdown.tsx(440,7): error TS2322: Type 'Path<T> | undefined' is not assignable to type 'Path<T>'.
+  Type 'undefined' is not assignable to type 'Path<T>'.
+src/components/ui/custom/custom-dropdown.tsx(441,7): error TS2322: Type 'RegisterOptions | undefined' is not assignable to type 'Omit<RegisterOptions<T, Path<T>>, "disabled" | "valueAsNumber" | "valueAsDate" | "setValueAs"> | undefined'.
+  Type 'Partial<{ required: string | ValidationRule<boolean>; min: ValidationRule<string | number>; max: ValidationRule<string | number>; ... 9 more ...; deps: string | string[]; }> & { ...; }' is not assignable to type 'Omit<RegisterOptions<T, Path<T>>, "disabled" | "valueAsNumber" | "valueAsDate" | "setValueAs"> | undefined'.
+    Type 'Partial<{ required: string | ValidationRule<boolean>; min: ValidationRule<string | number>; max: ValidationRule<string | number>; ... 9 more ...; deps: string | string[]; }> & { ...; }' is not assignable to type 'Omit<RegisterOptions<T, Path<T>>, "disabled" | "valueAsNumber" | "valueAsDate" | "setValueAs">'.
+      Types of property 'deps' are incompatible.
+        Type 'string | string[] | undefined' is not assignable to type 'Path<T> | Path<T>[] | undefined'.
+          Type 'string' is not assignable to type 'Path<T> | Path<T>[] | undefined'.
+src/components/ui/custom/custom-pagination.tsx(136,15): error TS2322: Type 'number' is not assignable to type 'string | string[] | null | undefined'.
+src/components/ui/custom/custom-pagination.tsx(138,15): error TS2322: Type '{ label: string; value: number; }[]' is not assignable to type 'DropdownOption[]'.
+  Type '{ label: string; value: number; }' is not assignable to type 'DropdownOption'.
+    Types of property 'value' are incompatible.
+      Type 'number' is not assignable to type 'string'.
+src/components/ui/form.tsx(6,3): error TS1484: 'ControllerProps' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/ui/form.tsx(7,3): error TS1484: 'FieldPath' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/ui/form.tsx(8,3): error TS1484: 'FieldValues' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/ui/pagination.tsx(5,10): error TS1484: 'ButtonProps' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.

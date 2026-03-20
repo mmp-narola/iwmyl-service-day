@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 25% 97%;
+    --foreground: 215 25% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 15%;
+
+    --primary: 142 65% 45%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 15% 94%;
+    --secondary-foreground: 215 25% 15%;
+
+    --muted: 210 15% 94%;
+    --muted-foreground: 215 15% 50%;
+
+    --accent: 142 75% 38%;
+    --accent-foreground: 0 0% 100%;
+
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 20% 88%;
+    --input: 210 20% 88%;
+    --ring: 142 65% 45%;
+
+    --radius: 0.75rem;
+
+    --gradient-hero: linear-gradient(
+      135deg,
+      hsl(142 65% 45%) 0%,
+      hsl(142 75% 55%) 100%
+    );
+    --gradient-accent: linear-gradient(
+      135deg,
+      hsl(142 75% 38%) 0%,
+      hsl(142 85% 48%) 100%
+    );
+    --shadow-soft: 0 4px 20px -2px hsl(142 65% 45% / 0.15);
+    --shadow-medium: 0 8px 30px -4px hsl(142 65% 45% / 0.2);
+  }
+
+  .dark {
+    --background: 215 30% 8%;
+    --foreground: 210 20% 98%;
+
+    --card: 215 25% 12%;
+    --card-foreground: 210 20% 98%;
+
+    --popover: 215 25% 12%;
+    --popover-foreground: 210 20% 98%;
+
+    --primary: 142 65% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 215 20% 18%;
+    --secondary-foreground: 210 20% 98%;
+
+    --muted: 215 20% 18%;
+    --muted-foreground: 215 15% 65%;
+
+    --accent: 142 75% 42%;
+    --accent-foreground: 0 0% 100%;
+
+    --success: 142 70% 42%;
+    --success-foreground: 0 0% 100%;
+
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 215 20% 20%;
+    --input: 215 20% 20%;
+    --ring: 142 65% 50%;
+
+    --gradient-hero: linear-gradient(
+      135deg,
+      hsl(142 65% 50%) 0%,
+      hsl(142 75% 60%) 100%
+    );
+    --gradient-accent: linear-gradient(
+      135deg,
+      hsl(142 75% 42%) 0%,
+      hsl(142 85% 52%) 100%
+    );
+    --shadow-soft: 0 4px 20px -2px hsl(0 0% 0% / 0.3);
+    --shadow-medium: 0 8px 30px -4px hsl(0 0% 0% / 0.4);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply text-foreground bg-background;
+  }
+}
+
+@layer utilities {
+  .header-gradient {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    padding-bottom: 0.625rem !important;
+
+    background: linear-gradient(to bottom, #b2d9f7 20%, transparent 100%);
+    padding: 0.625rem 0 2.5rem;
+  }
+}
