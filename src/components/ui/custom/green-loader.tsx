@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils";
+import { cn } from "../../../lib/utils";
 
 const GreenLoader = ({ label = "Mowing your lawn...", className = "" }) => {
   return (

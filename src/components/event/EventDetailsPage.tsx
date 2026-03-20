@@ -17,10 +17,10 @@
  * ============================================================
  */
 
-import { useEventDetail, useEventImages } from "@/hooks/useEvents";
-import EventCapacityBar from "@/components/event/EventCapacityBar";
+import { useEventDetail, useEventImages } from "../../hooks/useEvents";
+import EventCapacityBar from "./EventCapacityBar";
 import { useNavigate, useParams } from "react-router-dom";
-import CustomButton from "@/components/ui/custom/CustomButton";
+import CustomButton from "../ui/custom/CustomButton";
 import {
   MapPin,
   Calendar,
@@ -30,8 +30,8 @@ import {
   Truck,
   Globe,
 } from "lucide-react";
-import group from "@/assets/group.png";
-import { getTagList } from "@/helpers/utils";
+import group from "../../assets/group.png";
+import { getTagList } from "../../helpers/utils";
 import EventGallery from "./EventGallery";
 import CustomTag from "../ui/custom/custom-badge";
 import OrganizerCard from "./OrganizerCard";

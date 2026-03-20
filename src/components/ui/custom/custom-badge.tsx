@@ -4,9 +4,9 @@ import {
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@/components/ui/tooltip";
-import { generateHexColorFromString } from "@/helpers/utils";
-import { cn } from "@/lib/utils";
+} from "../tooltip";
+import { generateHexColorFromString } from "../../../helpers/utils";
+import { cn } from "../../../lib/utils";
 
 type TagVariant = "filled" | "solid" | "outlined";
 type TagSize = "sm" | "md" | "lg";

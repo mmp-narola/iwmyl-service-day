@@ -7,12 +7,12 @@
  */
 
 import { useState, useEffect, useCallback } from "react";
-import Axios from "@/services/api/axios";
+import Axios from "../services/api/axios";
 import {
   fetchGroupEvents,
   fetchGroupEventById,
   fetchEventImages,
-} from "@/services/endPoints/events.endpoints";
+} from "../services/endPoints/events.endpoints";
 
 /**
  * Fetch paginated/filtered event list

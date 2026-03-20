@@ -12,7 +12,7 @@
  * ============================================================
  */
 
-import CustomButton from "@/components/ui/custom/CustomButton";
+import CustomButton from "../ui/custom/CustomButton";
 
 export default function EventGallery({
   media = [],

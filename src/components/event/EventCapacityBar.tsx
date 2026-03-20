@@ -7,7 +7,7 @@
  * ============================================================
  */
 
-import { cn } from "@/lib/utils";
+import { cn } from "../../lib/utils";
 
 interface EventCapacityBarProps {
   filled?: number;
