@@ -7,7 +7,7 @@ import {
   PaginationNext,
   PaginationPrevious,
   PaginationEllipsis,
-} from "@/components/ui/pagination";
+} from "../pagination";
 import CustomDropdown from "./custom-dropdown";
 
 type PaginationMeta = {

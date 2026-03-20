@@ -1,4 +1,4 @@
-import type { Stage } from "@/types/schedulingTypes";
+import type { Stage } from "../types/schedulingTypes";
 import { format } from "date-fns";
 
 type FormatDateOptions = {

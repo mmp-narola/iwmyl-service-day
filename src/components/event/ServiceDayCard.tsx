@@ -1,8 +1,8 @@
 import React from "react";
 import { Clock } from "lucide-react";
-import group from "@/assets/group.png";
-import CustomButton from "@/components/ui/custom/CustomButton";
-import { cn } from "@/lib/utils";
+import group from "../../assets/group.png";
+import CustomButton from "../ui/custom/CustomButton";
+import { cn } from "../../lib/utils";
 import { useNavigate } from "react-router-dom";
 
 export interface EventData {
